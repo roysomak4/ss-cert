@@ -29,4 +29,4 @@ openssl req -newkey rsa:4096 \
             -subj "/C=US/ST=PA/L=PA/O=IT/CN=$domain"
 
 # create dhparam file
-openssl dhparam -out $domain/dhparam.pem 4096
+openssl dhparam -out $domain/dhparam.pem 2048
